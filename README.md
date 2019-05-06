@@ -1,4 +1,7 @@
-# Github
+# Github-Search
+
+Github-Search is an application that uses Api to conect the github and searches for users and
+their Repos.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
