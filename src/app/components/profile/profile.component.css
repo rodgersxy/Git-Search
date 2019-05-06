@@ -1,12 +1,10 @@
 .search-form{
     padding-top: 50px;
-    border: 1px solid #ccc;
+    border: 3px solid aquamarine;
+    border-radius: 10px;
 
 }
 .form-group{
     padding: 20px 50px;
     
-}
-body {
-    background-color: aquamarine;
 }

@@ -24,7 +24,12 @@ Github-Search is an application designed in Angular that anables the user to sea
 (iii) Install Angular
 (iv) Install Watchman
 
-## 
+## USER LOGIC 
+1.by default page will load after you start typing at the search form
+
+2.Public Gist are the number of gist the user has.
+
+3.View repository is the link to access the user's repo
 
 ## BEHAVIOR
 
