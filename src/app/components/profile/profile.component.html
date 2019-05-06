@@ -14,10 +14,10 @@
     </div>
     <div class="panel-body">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile Image">
         </div>
-        <div class="col-sm-8">
+        <div class="col-md-8">
           <ul class="list-group">
             <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
             <li class="list-group-item" *ngIf="profile.hireable">Availabel for hire</li>
@@ -26,7 +26,7 @@
           </ul>
         </div>
         <div class="container-fluid">
-        <div class="col-sm-4">
+        <div class="col-md-8">
           <div>
             <p>
               <span class="btn btn-info btn-lg">{{profile.followers}} followers</span>
@@ -34,14 +34,14 @@
               <span class="btn btn-primary btn-lg">{{profile.public_gists}} Public gists</span>
               <span class="btn btn-success btn-lg">{{profile.public_repos}} Public Repos</span>
             </p>
-            <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-success btn-lg">View profile on github</a></p>
+            <p><a href="{{profile.html_url}}" target="_blank" class="btn btn-lg btn-warning btn-lg">View profile on github</a></p>
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h1 class="panel-title">Repositories</h1>
               </div>
               <div class="panel-body" *ngFor="let repo of repos">
                 <p class="clear-fix"> 
-                  {{repo.name}} <a href="{{repo.html_url}}" target="_black" class="btn btn-lg btn-warning pull-right"> view this project on git hub</a>
+                  {{repo.name}} <a href="{{repo.html_url}}" target="_black" class="btn btn-lg btn-success pull-right"> view this project on git hub</a>
                   
                 </p>
                 <p>{{repo.description}}</p>
