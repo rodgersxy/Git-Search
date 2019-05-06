@@ -44,7 +44,13 @@ Github-Search is an application designed in Angular that anables the user to sea
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## TECHNOLOGIES USED
+  1. Angular
+  2. TypeScript
+  3. Visual Studio Code
+  4. Nodejs
+  5. watchman
+
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
