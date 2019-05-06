@@ -10,7 +10,9 @@ May 6th,2019.
 Github-search {Monday 6th May 2019}
 
 
-## Code scaffolding
+## DESCRIPTION
+
+Github-Search is an application designed in Angular that anables the user to search other github useers by typing their username to the search button. The user can see thier repos,people the follow,location,blogs and all information in the other.
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 

@@ -8,13 +8,13 @@ import {environment} from '../../environments/environment';
 })
 export class ProfileService {
 
-  private username:string;
+  private username="rodgersxy";
   private clientid = '94ec67ca35b8c7b57788';
   private clientsecret = '5743bb7bc33ff5ebe70d9fbb4829f0574639481b';
 
   constructor(private http:Http) { 
    // console.log("service is now ready");
-    this.username = 'rodgersxy';
+    // this.username = 'rodgersxy';
 
   }
   getProfileInfo(){
@@ -26,6 +26,6 @@ export class ProfileService {
     .pipe(map(res => res.json()));
   }
   updateProfile(username:string){
-    this.username + username;
+    this.username = username;
   }
 }
