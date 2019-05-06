@@ -1,5 +1,11 @@
 .search-form{
     padding-top: 50px;
+    border: 1px solid #ccc;
+
+}
+.form-group{
+    padding: 20px 50px;
+    
 }
 body {
     background-color: aquamarine;
