@@ -10,7 +10,7 @@ May 6th,2019.
 Github-search {Monday 6th May 2019}
 
 ## USER
-Any one with account in Git and what to search other user's informations and repository
+Any one with account in Git and what to search other user's informations and repository.
 
 
 ## DESCRIPTION
@@ -25,9 +25,16 @@ Github-Search is an application designed in Angular that anables the user to sea
 (iv) Install Watchman
 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## BEHAVIOR
 
-## Running unit tests
+
+| Input              | Behaviour | Output                                                        |
+|--------------------|-----------|---------------------------------------------------------------|
+| Accepts text input | keyup     | As the user types/search it displays accounts of users ontype |
+
+
+
+
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
