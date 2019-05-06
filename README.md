@@ -3,11 +3,12 @@
 Github-Search is an application that uses Api to conect the github and searches for users and
 their Repos.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+May 6th,2019.
+.
 
-## Development server
+## RODGERS NYAKUNDI MOGAKA
+Github-search {Monday 6th May 2019}
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
